@@ -1,0 +1,492 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    font-family: "Snippet", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.747)), url(./img/fondo1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    height: 25%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+nav>img{
+    height: 100%;
+    width: auto;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+
+}
+nav>ul{
+    display: flex;
+    gap: 10%;
+    list-style-type: none;
+    justify-content: end;
+    color: aliceblue;
+    padding: 5%;
+}
+nav>ul>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav>ul>a:hover{
+    color: rgba(19, 146, 219, 0.521);
+}
+nav>ul>li{
+    text-decoration: none;
+
+    text-decoration: none;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: xx-large;
+    
+}
+.blanco{ 
+    color: rgb(255, 255, 255); 
+
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 100%;
+    
+}
+.bio1{
+    background-color: black;
+    color: rgba(214, 87, 28, 0.61);
+    height: 100%;
+
+}
+.bio1>h1{
+    padding: 5%;
+}
+.bio1>p{
+    font-size: 1.20rem;
+    margin-bottom: 5%;
+}
+.img1{
+    height: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.767)),url("https://estaticos-cdn.prensaiberica.es/clip/4ec55a62-f01e-4712-8498-24e12fc2c605_alta-libre-aspect-ratio_default_0.jpg");
+}
+.event2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.767)),url(./package/img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.event2>h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.tarjetas{
+
+    display: grid;
+    grid-template-columns:repeat(3, 25%);
+    grid-auto-flow: column;
+    gap: 2%;
+    padding: 5%;
+    justify-content: center;
+}
+.tar{
+    height: 45vh;
+    border: 1px solid ;
+    border-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+    justify-items:center ;
+    
+}
+
+.tar>a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    border-top: none;
+    border-radius: 15px;
+    padding: 5%;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.event2>h1{
+    color: white;
+}
+.tar>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#tr1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.658)), url(https://2023.madridfusion.net/media/9933073b-71c5-4369-b76a-a690fb1cdc31_Dabiz%20Mu%C3%B1oz%2002%20600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#tr2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.658)),url(https://image.europafm.com/clipping/cmsimages01/2022/05/09/2F7F25D5-B8E9-406E-87D6-884B28CBBC84/rosalia-dabiz-munoz_98.jpg?crop=1080,608,x0,y656&width=1900&height=1069&optimize=low&format=webply);
+    background-size: cover;
+    background-position: center;
+}
+#tr3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.658)),url(https://img.asmedia.epimg.net/resizer/v2/5WNTLIBZXBPW3DSJMZTI637FLA.jpg?auth=7c0399d56460ada65662f83213257fad4140c831b3ed3f7892b58ef0ac895bb7&width=644&height=362&smart=true);
+    background-size: cover;
+    background-position: center;
+}
+.eventos{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    padding:3%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.events>h2{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 2rem;
+}
+.events>p{
+    font-size: 1.3rem;
+}
+.events>h3{
+    font-size: 1.5rem;
+}
+.events>a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: brown;
+}
+
+.events>a:hover{
+    color: rgba(19, 146, 219, 0.521)
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    gap: 3%;
+}
+.events>img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5%;
+    padding: 2%;
+
+}
+.twitter-tweet{
+    display: flex;
+    margin: auto;
+}
+#fondo3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.918)),url(https://content-cocina.lecturas.com/medio/2021/09/16/dabiz-munoz-con-el-trofeo-best-chef_5b297e1e_1200x1200.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#fondo4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.918)),url(https://media.traveler.es/photos/61c5d52fffc04ac0ad2208f4/4:3/w_3215,h_2411,c_limit/2AB9DD5.jpg);
+    background-size: cover;
+    background-position: center;
+
+}   
+
+#fondo5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.918)),url(./package/img/fondo5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Galeria de imagenes */
+
+.espaciado{
+    background-color: black;
+    width: 100%;
+}
+
+.galeria {
+
+    padding: 3%;
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+
+
+.imagen{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: .4;
+    transition: 3s ease;
+}
+.imagen:hover {
+    cursor:cell;
+    width: 25%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.espaciado>div{
+    display: flex;
+    justify-content: center;
+}
+
+.resetas{
+    background-color: black;
+    display: grid;
+    color: white;
+}
+.resetas>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 10vh;
+    padding: 2%;
+}
+.cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
+    margin: 6%;
+    gap: 1.5%;
+    
+    
+}
+.cajones{
+    display: grid;
+    height: 55vh;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    align-items: end;
+}
+.cajones>a{
+    height: 27%;
+    width: 51vh;
+    background-color: white;
+    font-size: 2.3vh;
+    overflow: hidden;
+    text-decoration: none;
+    color: brown;
+}
+.cajones>a>p{
+    padding: 2%;
+}
+.cajones>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(210, 72, 30);
+}
+
+#img1{
+    background-image: url(https://images.squarespace-cdn.com/content/60ff20587f00f42b9b296006/1628887629313-BY2143TZZON0CY1BFUGL/lasa%C3%B1a+mumbai+goxo+dabiz+mu%C3%B1oz.JPG?format=1500w&content-type=image%2Fjpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3wwtEWdcGPK4rw3vCw5tgooOqL2LgAZIXxQ&s);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3{
+    background-image: url(https://lh4.googleusercontent.com/proxy/orlkxDGLS84vPQ0VJjkZKEyyItDf9aA4r7gDjVOw8oJlcvbwQd39phXwok6t6QZIUkMygIC1e4VHPOuxkuGrY68auLK35svLlk4ednFiWGWRPjQI6RIo0Hxj5bCt776riEM3fejV5eU20_ZVDr1ghl19uOmgiY12fqHeGwLGU10);
+    background-size: cover;
+    background-position: center;
+}
+
+#img4{
+    background-image: url(https://scontent.flpb2-1.fna.fbcdn.net/v/t1.6435-9/123303421_1453969098140696_3014246856887900335_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hp7tOTsxbTIQ7kNvgGFQkZJ&_nc_ht=scontent.flpb2-1.fna&oh=00_AYBEiu_d6nUJJEr3wuyqXk6D38LXLh90-Z8atcka0hCNEA&oe=6685FE8C);
+    background-size: cover;
+    background-position: center;
+}
+#img5{
+    background-image: url(https://cdn.ondavasca.com/goxo-barcelona-dabiz-munoz-1_hong_kong.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img6{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/05/27/c4/01/street-xo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* PLATILLOS */
+
+.platillos{
+    display: flex;
+
+}
+.platillos>.ingredientes>h1{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.ingredientes{
+    font-size: 3.3vh;
+
+}
+
+
+.preparacion{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 50%)
+
+}
+.prepa{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgba(214, 87, 28, 0.61);
+    font-size: 2.5vh;
+    padding: 2%;
+}
+
+.preparacion>.foto{
+    background-image: url(https://imagenes.elpais.com/resizer/v2/63ZTCGB7DZID7CL7BSMRZLFWNY.jpg?auth=4b7c79c81b3d6d8d2f655c46b086df389e3d4cd6d13b1c758187b3fca58e8674&width=980);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.dun>.almacenar1{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-auto-flow: column;
+}
+pre{
+    font-size: 2.5vh;
+}
+.dun>.almacenar1>.foto2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.61)), url(https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2022/08/11/fotografia-de-dumplings.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.dun>.almacenar1>div{
+    background-color: black;
+    color: white;
+}
+.ol>li{
+    font-size: 4vh;
+    padding: 2%;
+    list-style-type:circle;
+
+}
+.dun>.h2{
+    display: flex;
+    justify-content: center;
+    font-size: 6vh;
+}
+a{
+    color: brown;
+    font-size: 3vh;
+    padding: 2%;
+}
+a:hover{
+    color: blueviolet;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    background-color: black;
+    color: white;
+}
+
+.chili{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-flow: column;
+}
+.text{
+    padding: 5%;
+    background-color: rgb(0, 0, 0);
+    color: brown;
+}
+.chili>.foto3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.61)), url(https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2022/08/11/fotografia-de-dumplings.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+iframe{
+    display: flex;
+    margin: auto;
+    padding: 4%;
+}
+
+.footer1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>ul{
+    list-style-type: none;
+}
+.icons-f{
+    color: rgb(255, 255, 255);
+}
+.icons-f:hover{
+    color: #0051ff;
+}
+
+.icons-t{
+    color: #148dd3;
+
+    font-size: 5vh;
+}
+.icons-t:hover{
+    color: rgb(255, 255, 255);
+
+}
+.icons{
+    font-size: 5vh;
+    
+}
+.icons-i{
+    color: #d35a14;
+}
+.icons-i:hover{
+    color: #e41e70;
+}
+
+/*FINNNNNNNNNNNNNNNNNNNNNNNNN */
